@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/case.css">
+    <link rel="stylesheet" href="./Font/fontawesome-free-5.15.4/css/all.min.css">
+
+
+    <title>Case</title>
+
+</head>
+<style>
+    body {
+        background-image: url("img/background1.gif");
+    }
+</style>
+
+
+<body>
+    <marquee>
+        <p style="color: rgb(39, 180, 226); font: size large 50px;">yeahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+        </p>
+    </marquee>
+
+    <div class="container">
+
+        <div id="header">
+            <a href="logo">
+                <img src="./img/logo.gif" alt style="width: 90px;">
+            </a>
+            <form class="formsearch">
+                <input type="search" placeholder="Search" aria-label="Search" oninput="search(this)">
+                <!-- <button type="submit" onclick="search()">Tìm kiếm</button> -->
+            </form>
+
+            <div class="menu" alt style="display: flex;">
+                <div class="item-subitem">
+                    Trang chủ
+                </div>
+                <div class="item-subitem">
+                    Giới thiệu
+                </div>
+                <div class="item-subitem">Sản phẩm
+                    <ul class="dropdown-list">
+                        <li class="dropdown-liststyle">chuột</li>
+                        <li class="dropdown-liststyle">tai nghe</li>
+                        <li class="dropdown-liststyle">quạt tản nhiệt</li>
+                    </ul>
+                </div>
+                <div class="item-subitem">
+                    Liên hệ
+                </div>
+                <div id="action" style="display: flex;">
+                    <div class="item">
+
+                        <a href="" class="topbar-iconlink">
+                            <i class="fas fa-user"></i>
+                        </a>
+
+                    </div>
+                    <div class="item">
+                        <a href="" class="topbar-iconlink">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="add-item">
+                <!-- <div class="form-group">
+
+
+                    <label for="id">Id</label>
+                    <input type="number" id="id" class="form-control">
+                </div> -->
+                <div class="form-group">
+                    <label for="avatar">avatar</label>
+                    <input type="url" id="idavatar" class="form-control">
+                </div>
+                <div class=" form-group ">
+                    <label for="name ">Product name</label>
+                    <input type="name " id="productname" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="name">Quantity</label>
+                    <input type="name" id="quantity" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Price ">Price</label>
+                    <input type="name" id="price" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <button class="btn btn-primary" onclick="Add()">Add</button>
+                    <button class="btn btn-primary d-none" id="update-btn" onclick="updateStaff()">Update</button>
+                    <button class="btn btn-danger d-none" id="cancel-btn" onclick="cancel()">Cancel</button>
+                </div>
+            </div>
+        </div>
+        <div class="underhead" style="color: aqua;">
+
+
+        </div>
+        <div class="row">
+            <div class="show-item">
+                <table class="table table-hover">
+                    <thead>
+                        <tr class="">
+                            <th>ID</th>
+                            <th>image</th>
+                            <th>Product name</th>
+                            <th>Quantity</th>
+                            <th>Price
+                                <span title="Acsending" onclick="sort('acs')">&#x25B2</span>
+                                <span title="Descending" onclick="sort('desc')">&#x25BC</span>
+                            </th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- <tr>
+                            <td>1</td>
+                            <td> <img src="./img/msiDelta15.jpg" alt=""></td>
+                            <td>MSI Delta15</td>
+                            <td>6</td>
+                            <td>6</td>
+
+                            <td>13.500.000vnd</td>
+                            <td><button class="btn btn-warning">edit</button>
+                                <button class="btn btn-danger">remove</button></td>
+
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td> <img src="./img/msiDelta15.jpg" alt=""></td>
+                            <td>MSI Delta15</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td>13.500.000vnd</td>
+                            <td><button class="btn btn-warning">edit</button>
+                                <button class="btn btn-danger">remove</button></td>
+
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td> <img src="./img/msiDelta15.jpg" alt=""></td>
+                            <td>MSI Delta15</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td>13.500.000vnd</td>
+                            <td><button class="btn btn-warning">edit</button>
+                                <button class="btn btn-danger">remove</button></td>
+
+                        </tr> -->
+                    </tbody>
+
+
+                </table>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <script src="/Case_study/Js/Case.js"></script>
+</body>
+
+</html>
