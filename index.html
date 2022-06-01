@@ -21,7 +21,7 @@
 
 <body>
     <marquee>
-        <p style="color: rgb(39, 180, 226); font: size large 50px;">yeahhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+        <p style="color: rgb(39, 180, 226); font: size large 50px;">Chào mừng đến với trang quản lý sản phẩm của tôi
         </p>
     </marquee>
 
@@ -32,8 +32,8 @@
                 <img src="./img/logo.gif" alt style="width: 90px;">
             </a>
             <form class="formsearch">
-                <input type="search" placeholder="Search" aria-label="Search" oninput="search(this)">
-                <!-- <button type="submit" onclick="search()">Tìm kiếm</button> -->
+                <input type="search" placeholder="Search" oninput="search(this)">
+                <!-- <button type="search" onclick="search()">Tìm kiếm</button> -->
             </form>
 
             <div class="menu" alt style="display: flex;">
@@ -99,8 +99,9 @@
 
                 <div class="form-group">
                     <button class="btn btn-primary" onclick="Add()">Add</button>
-                    <button class="btn btn-primary d-none" id="update-btn" onclick="updateStaff()">Update</button>
-                    <button class="btn btn-danger d-none" id="cancel-btn" onclick="cancel()">Cancel</button>
+                    <!-- <button class="btn btn-primary d-none" id="update-btn" onclick="updateStaff()">Update</button>
+                     <button class="btn btn-primary d-none" id="update-btn" onclick="update(${product.productId})">update</button> -->
+
                 </div>
             </div>
         </div>
@@ -169,7 +170,7 @@
     </div>
     </div>
 
-    <script src="/Case_study/Js/Case.js"></script>
+    <script src="./Js/Case.js"></script>
 </body>
 
 </html>
