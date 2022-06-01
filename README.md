@@ -1,4 +1,3 @@
-# 1CT_manager-Product
 # Các kiến thức áp dụng
 1. HTML/CSS
 2. DOM/BOM
