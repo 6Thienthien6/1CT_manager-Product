@@ -1,7 +1,7 @@
 Các kiến thức áp dụng
 1. HTML/CSS
 2. DOM/BOM
-3. JavaScript (Array Methods, LocalStorage)
+3. JavaScript (Array Methods)
 4. OOP/ Object
 5. Function
 Theme sử dụng
